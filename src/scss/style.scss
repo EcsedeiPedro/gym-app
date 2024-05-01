@@ -1,0 +1,10 @@
+// main.scss
+
+@import 'base/variables.scss';
+@import 'base/reboot.scss';
+@import 'base/mixins.scss';
+
+@import 'global/header';
+@import 'global/footer.scss/';
+
+@import 'pages/home.scss';
