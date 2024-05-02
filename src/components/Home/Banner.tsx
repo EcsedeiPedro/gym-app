@@ -2,13 +2,13 @@ import { Row, Col } from "react-bootstrap";
 
 export default function BannerHome() {
   return (
-      <section className="banner">
-          <div className="container">
+      <section className="">
+          <div className="">
               <Row>
-                  <Col className="content" md={6}>
+                  <Col className="" md={6}>
                       <h1>Potter ipsum wand elf parchment wingardium.</h1>
 
-                      <a className="button">crie seu treino</a>
+                      <a className="">crie seu treino</a>
                   </Col>
               </Row>
           </div>

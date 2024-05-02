@@ -1,6 +1,6 @@
 export type MenuNavProps<T = unknown> = {
   children: React.ReactNode
-  className: string
+  className?: string
 } & T
 
 export function Nav({ children, className }: MenuNavProps) {
