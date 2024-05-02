@@ -1,6 +1,6 @@
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 
 * {
   box-sizing: border-box;
@@ -24,10 +24,24 @@ body {
   }
 }
 
+@layer utilities {
+  .title-font {
+    text-transform: uppercase;
+    width: max-content;
+    color: white;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-bottom: 2px solid #8F00FF;
+  }
+}
+
 a {
   text-decoration: none !important;
 }
 
-ul li, ol li {
+ul li,
+ol li {
   list-style: none !important;
 }
