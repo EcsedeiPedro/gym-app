@@ -6,8 +6,9 @@ import Link from 'next/link';
 export default function Header() {
     return (
         <header className="absolute top-0 bg-dark-gray py-6 w-full" >
+            
             <div className="container flex items-center">
-                <Logo/>
+                <Logo className='' />
                 
                 <Nav>
                     <NavMenu className="flex ml-16 items-center gap-4 mb-0 pl-0 uppercase">

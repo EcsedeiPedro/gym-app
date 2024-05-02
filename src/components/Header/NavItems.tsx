@@ -1,6 +1,9 @@
+import Link from "next/link"
+
 export type MenuNavProps<T = unknown> = {
   children: React.ReactNode
   className?: string
+  href?: string
 } & T
 
 export function Nav({ children, className }: MenuNavProps) {
@@ -31,11 +34,10 @@ type NavMenuItemLinkProps = {
   href: string
 }
 
-
 export function NavMenuItemLink({ children, className, href }: MenuNavProps<NavMenuItemLinkProps>) {
   return (
-    <a href={href} className={className}>
+    <Link href={href} className={className}>
       {children}
-    </a>
+    </Link>
   )
 }

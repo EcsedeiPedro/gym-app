@@ -6,14 +6,16 @@ export default function About() {
     <section className='py-[80px] bg-dark-gray flex'>
       <div className="container">
         <div className="bg-less-dark-gray py-[78px] pl-12">
-          <Row>
-            <Col md={7} className="text-white">
+          <Row className="">
+            <Col md={7} className="flex flex-col gap-[24px] text-white">
               <h2 className="title-font">Sobre</h2>
               <p>Potter ipsum wand elf parchment wingardium. Headmaster dervish restricted toad-like headmaster find granger clean hat biting. Butter easy cloak hall treacle scales ground. Section bathroom cadogan trelawney silver kidney black. Hungarian back doe scabbers frisbees shunpike potter chess. Devil’s witch thestral voldemort drills hand. You mcgonagall floor them daily them honeydukes.</p>
-              <p>Saiba Mais <ArrowRightIcon/></p>
+              <p className="flex items-center gap-2">Saiba Mais <ArrowRightIcon/></p>
             </Col>
 
-            <Col md={5} className="" />
+            <Col md={5} className="">
+              
+            </Col>
           </Row>
         </div>
       </div>
