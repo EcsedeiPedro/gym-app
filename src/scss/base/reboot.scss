@@ -10,23 +10,6 @@
   margin: 0 auto;
 }
 
-.half-container {
-  width: 100%;
-  overflow-x: hidden;
-
-  @media (min-width: 1200px) {
-    max-width: calc(1440px / 2);
-  }
-}
-
-.align-left {
-  margin-left: auto;
-}
-
-.align-right {
-  margin-right: auto;
-}
-
 ul li, ol li {
   list-style: none;
 }
