@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 export default function Header() {
     return (
-        <header className="bg-dark-gray py-6 w-full" >
+        <header className="absolute top-0 bg-dark-gray py-6 w-full" >
             <div className="container flex items-center">
                 <Logo/>
                 
