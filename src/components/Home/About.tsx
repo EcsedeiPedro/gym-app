@@ -7,7 +7,7 @@ import Link from 'next/link';
 export default function About() {
   return (
     <section className='py-[80px] bg-dark-gray flex'>
-      <div className="container px-0">
+      <div className="container">
           <Row className="relative bg-less-dark-gray pl-12 rounded-md pr-0 items-center about-drop-shadow">
             <Col md={6} className="flex flex-col gap-[24px] text-white px-4">
               <h2 className="title-font">Sobre</h2>
