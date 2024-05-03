@@ -3,7 +3,7 @@ import { Row, Col } from "react-bootstrap";
 
 export default function BannerHome() {
   return (
-      <section className="mt-[88px] calc-height flex items-center bg-dark-gray">
+      <section className="flex items-center bg-[url('/banner-home.png')] h-screen">
           <div className="container">
               <Row>
                   <Col className="flex flex-col gap-16" md={6}>
