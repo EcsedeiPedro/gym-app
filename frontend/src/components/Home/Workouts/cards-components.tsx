@@ -21,7 +21,7 @@ type WorkoutCardButtonProps = {
   className?: string;
 };
 
-export const WorkoutCards = ({ children, className }: WorkoutCardsProps) => {
+const WorkoutCards = ({ children, className }: WorkoutCardsProps) => {
   return (
     <div className={className}>
       {children}
@@ -29,7 +29,7 @@ export const WorkoutCards = ({ children, className }: WorkoutCardsProps) => {
   )
 };
 
-export const WorkoutCard = ({ children, className, key, style }: WorkoutCardProps) => {
+const WorkoutCard = ({ children, className, key, style }: WorkoutCardProps) => {
   return (
     <div className={className} key={key} style={style}>
       {children}
@@ -37,7 +37,7 @@ export const WorkoutCard = ({ children, className, key, style }: WorkoutCardProp
   )
 };
 
-export const WorkoutCardName = ({ children, className, }: WorkoutCardNameProps) => {
+const WorkoutCardName = ({ children, className, }: WorkoutCardNameProps) => {
   return (
     <div className={className}>
       {children}
@@ -45,10 +45,12 @@ export const WorkoutCardName = ({ children, className, }: WorkoutCardNameProps) 
   )
 };
 
-export const WorkoutCardButton = ({ children, className, onClick }: WorkoutCardButtonProps) => {
+const WorkoutCardButton = ({ children, className, onClick }: WorkoutCardButtonProps) => {
   return (
     <button className={className} onClick={onClick}>
       {children}
     </button>
   )
 };
+
+export { WorkoutCards, WorkoutCard, WorkoutCardName, WorkoutCardButton }

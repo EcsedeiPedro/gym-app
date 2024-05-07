@@ -4,6 +4,7 @@ const inter = Inter({ subsets: ["latin"] });
 import Header from "../components/Header/Header";
 import '../../styles/globals.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import '@radix-ui/themes/styles.css';
 export const metadata: Metadata = {
   title: "Gym app",
   description: "Improving your workout",

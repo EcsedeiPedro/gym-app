@@ -2,9 +2,9 @@ import { TrainingCards } from "./Workouts/TrainingCard";
 
 export function TrainingSuggestions() { 
   return (
-    <section className="bg-less-dark-gray py-[80px]">
+    <section className="bg-white py-[80px]">
       <div className="container">
-        <h2 className="title-font">Sugestões de Treinos</h2>
+        <h2 className="title-font !text-dark-gray">Sugestões de Treinos</h2>
 
         <TrainingCards />
       </div>
