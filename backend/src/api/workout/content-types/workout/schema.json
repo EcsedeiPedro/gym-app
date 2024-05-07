@@ -4,7 +4,8 @@
   "info": {
     "singularName": "workout",
     "pluralName": "workouts",
-    "displayName": "Workouts"
+    "displayName": "Workouts",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -16,11 +17,15 @@
       "required": true
     },
     "card_picture": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "exercises": {
+      "type": "json",
       "required": true
     }
   }

@@ -368,6 +368,7 @@ export interface ApiWorkoutWorkout extends Schema.CollectionType {
     singularName: 'workout';
     pluralName: 'workouts';
     displayName: 'Workouts';
+    description: '';
   };
   options: {
     draftAndPublish: true;
@@ -375,6 +376,7 @@ export interface ApiWorkoutWorkout extends Schema.CollectionType {
   attributes: {
     name: Attribute.String & Attribute.Required;
     card_picture: Attribute.Media & Attribute.Required;
+    exercises: Attribute.JSON & Attribute.Required;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
